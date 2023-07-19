@@ -10,7 +10,7 @@ fi
 
 ## Always double quote variables in expressions
 
-if [ "quantity" -gt 100]
+if [ "quantity" -gt 100];
 then
   echo mango price - $0.5
 else
