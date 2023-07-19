@@ -1,7 +1,9 @@
-fruit_name=mango
-quantity=10
+fruit_name=$1
+quantity=$2
 
-if [ $fruit_name == "banana" ]
+if [ "$fruit_name" == "banana" ]
 then
   echo Mango Quantity - $quantity
+else
+  echo Fruit does not exist
 fi
